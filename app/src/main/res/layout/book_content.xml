@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    tools:context=".BookContentActivity"
+    android:id="@+id/book2_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/book_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/book_be"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintRight_toLeftOf="@+id/book_af"
+            app:layout_constraintHorizontal_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:outlineSpotShadowColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/book_af"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintLeft_toRightOf="@+id/book_be"
+            app:layout_constraintHorizontal_weight="1"
+            android:outlineSpotShadowColor="@color/white"
+            android:backgroundTint="@color/design_default_color_background"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/book_page3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_idx"
+        android:layout_gravity="center"
+        android:text="    대학에 가고, 좋은 성적을 받고, 졸업하고, 좋은 직업을 갖고, 수익의 10%를 주식에 투자하고, 최대한 퇴직연금에 투자하고, 신용카드를 없애고, 쿠폰을 모으고··· ···. 그러면 당신이 65세쯤 되었을 언젠가 부자가 될 것이다. \n\n      위와 같은 지시사항은 곧 현재의 삶을 미래의 삶과 맞바꾸라는 의미다. 이런 방식의 삶의 여정은 너무 길 뿐만 아니라 아름답지도 않다. 부를 항해에 비유하자면, '천천히 부자 되기'란 남아메리카 대륙을 빙 돌아 항해하는 것인 반면, '추월차선' 방식은 파나마 운하 즉, 지름길을 통해 항해하는 일이다."
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:visibility="invisible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/book_page2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_idx"
+        android:layout_gravity="center"
+        android:text="교묘하게 가려져 있다는 점이다. 당신을 인도하는 것은 지름길이 아니라, 생각을 마비시키는 평범한 삶으로 향하는 길이다. 그 길은 생각 없는 대중을 위해 만들어진 재무 전략 따위와 막연한 기대를 위해 꿈을 희생하길 강요하는 지시사항으로 점철되어 있다. \n\n     평범하게 돈을 버는 방법은 '천천히 부자 되기', '서행차선', '휠체어 탈 때쯤 부자 되기'로도 대변된다. 그 방법은 다음과 같이 지루하다."
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:visibility="invisible" />
+    </FrameLayout>
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/book_page1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/book_idx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="프롤로그 \n\n부자가 되는 길에는 지름길이 있다"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/book_con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_idx"
+            android:gravity="center"
+            android:text="   젊은 나이에 부와 경제적 자유를 빠르게 얻을 수 있는 지름길은 존재한다. 당신은 평범한 삶에 머무를 필요가 없다. 당신은 일찍 부자가 될 수 있고, 40년 일찍 은퇴할 수 있으며, 대부분의 사람들이 누리지 못하는 삶을 살 수 있다.안타까운 사실은 그 지름길이 당신이 알아채기 어렵게"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+
+            />
+    </RelativeLayout>
+</FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
