@@ -6,10 +6,12 @@
 
 
 # 📌 Image
-> 로그인 화면
+> 로그인 화면   
+
 ![rp_week2_login](https://user-images.githubusercontent.com/73240332/127133600-540867ef-07ab-4be2-860d-090ce281dd42.PNG)
 
-> 알림 메시지
+> 알림 메시지   
+
 ![rp_week2_login_alert](https://user-images.githubusercontent.com/73240332/127133757-def379d1-f143-4ede-b33d-39f4b4e9e71a.PNG)
 
 
